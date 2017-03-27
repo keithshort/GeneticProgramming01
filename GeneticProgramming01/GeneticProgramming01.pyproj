@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4cf15653-2c71-4eb7-9c68-a4368a1d3770</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GeneticProgramming01.py</StartupFile>
+    <StartupFile>gridgametest2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="GeneticProgramming01.py" />
+    <Compile Include="gametest1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gp.py" />
+    <Compile Include="gptest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gridgametest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gridgametest2.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gp_program.pkl" />
+    <Content Include="Gridgame01.pkl" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
